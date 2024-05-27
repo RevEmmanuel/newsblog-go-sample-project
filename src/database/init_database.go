@@ -2,12 +2,11 @@ package database
 
 import (
 	"fmt"
-	"log"
-	"newsblog-users-ms/src/models"
-
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"log"
+	"newsblog-users-ms/src/models"
 )
 
 var DB *gorm.DB
